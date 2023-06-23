@@ -1,0 +1,20 @@
+:root {
+    --my-grey-search: #e5e5e5;
+}
+
+/* Nav */
+nav .dropstart .dropdown-toggle::before {
+    display: none;
+}
+
+nav .input-group-text {
+    padding: .375rem 0 .375rem .75rem;
+    background-color: var(--my-grey-search);
+    border-right: none;
+}
+
+nav .form-control {
+    background-color: var(--my-grey-search);
+    background-clip: padding-box;
+    border-left: none;
+}
