@@ -22,3 +22,9 @@ nav .form-control {
 nav .my-navbar-logo {
     width: 2.4rem;
 }
+
+/* Sezione aside */
+aside {
+    background-image: url('../img/sidebar-bg.png');
+    background-color: #051e34;
+}
