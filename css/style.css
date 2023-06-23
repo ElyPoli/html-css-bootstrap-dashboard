@@ -18,3 +18,7 @@ nav .form-control {
     background-clip: padding-box;
     border-left: none;
 }
+
+nav .my-navbar-logo {
+    width: 2.4rem;
+}
