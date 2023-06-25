@@ -1,5 +1,7 @@
 :root {
     --my-grey-search: #e5e5e5;
+    --bs-primary-rgb: 28, 113, 232;
+    --bs-primary: #1b72e8;    
 }
 
 /* Nav */
@@ -36,3 +38,9 @@ aside {
 .sidebar-link:hover {
     background-color: #81909a;
 }
+
+/* Main */
+.text-bg-dark {
+    background-color: RGBA(22, 91, 186,var(--bs-bg-opacity,1))!important;
+}
+
