@@ -28,3 +28,11 @@ aside {
     background-image: url('../img/sidebar-bg.png');
     background-color: #051e34;
 }
+
+.sidebar-link {
+    transition: background-color .4s;
+}
+
+.sidebar-link:hover {
+    background-color: #81909a;
+}
