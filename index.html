@@ -111,12 +111,12 @@
         </aside>
 
         <!-- Box con il contenuto principale -->
-        <main class="d-flex flex-column flex-grow-1 overflow-auto">
+        <main class="d-flex flex-column flex-grow-1 overflow-y-auto overflow-x-hidden">
             <!-- Sezione superiore blu -->
             <div class="container-fluid bg-primary text-white pt-3 pb-3 ps-3 pe-2">
-                <div class="row row-cols-1 flex-sm-row-reverse">
+                <div class="row flex-sm-row-reverse">
                     <!-- Sezione nuovo studente -->
-                    <div class="col-sm-4 col-md-3 d-flex align-items-center align-items-sm-start pb-4">
+                    <div class="col-12 col-sm-4 col-md-3 d-flex align-items-center align-items-sm-start pb-4">
                         <p class="pe-4 mt-3 mt-sm-2 text-nowrap">Nuovo Studente</p>
                         <!-- Pulsante per inserire un nuovo studente -->
                         <button type="button" class="btn btn-outline-light">
@@ -124,12 +124,12 @@
                         </button>
                     </div>
                     <!-- Sezione studenti online -->
-                    <div class="col-sm-4 col-md-3">
+                    <div class="col-12 col-sm-4 col-md-3">
                         <p class="mb-1">Studenti online negli ultimi 30 minuti</p>
                         <p class="fs-2 mt-1">125</p>
                     </div>
                     <!-- Sezione titolo e badge -->
-                    <div class="col-sm-4 col-md-6">
+                    <div class="col-12 col-sm-4 col-md-6">
                         <!-- Titolo con badge -->
                         <h1 class="fs-2 fw-normal">
                             Boolean
@@ -153,9 +153,126 @@
                         </p>
                     </div>
                 </div>
-
-
-
+            </div>
+            <!-- Sezione centrale inferiore con il contenuto principale del sito -->
+            <div class="container-fluid bg-info-subtle">
+                <div class="row">
+                    <!-- Card - prossime classi -->
+                    <div class="col-12 col-lg-8 pt-4 pb-4 pe-2 ps-2">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Prossime classi</h4>
+                            </div>
+                            <div class="card-body">
+                                <table class="table text-center">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Nome</th>
+                                            <th scope="col">Data inizio</th>
+                                            <th scope="col">ROI</th>
+                                            <th scope="col">Stato</th>
+                                            <th scope="col">Azioni</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><img src="img/class-avatar.png" class="my-img-card me-2" alt="Avatar">Classe 75</td>
+                                            <td>15 febbraio 2021</td>
+                                            <td>20%</td>
+                                            <td><span class="badge text-bg-success">Done</span></td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                                <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><img src="img/class-avatar.png" class="my-img-card me-2" alt="Avatar">Classe 76</td>
+                                            <td>16 febbraio 2021</td>
+                                            <td>20%</td>
+                                            <td><span class="badge text-bg-success">Done</span></td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                                <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><img src="img/class-avatar.png" class="my-img-card me-2" alt="Avatar">Classe 77</td>
+                                            <td>17 febbraio 2021</td>
+                                            <td>20%</td>
+                                            <td><span class="badge text-bg-warning text-white">Process</span></td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                                <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><img src="img/class-avatar.png" class="my-img-card me-2" alt="Avatar">Classe 78</td>
+                                            <td>18 febbraio 2021</td>
+                                            <td>20%</td>
+                                            <td><span class="badge text-bg-success">Done</span></td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                                <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><img src="img/class-avatar.png" class="my-img-card me-2" alt="Avatar">Classe 79</td>
+                                            <td>19 febbraio 2021</td>
+                                            <td>20%</td>
+                                            <td><span class="badge text-bg-danger">Failed</span></td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                                <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><img src="img/class-avatar.png" class="my-img-card me-2" alt="Avatar">Classe 80</td>
+                                            <td>20 febbraio 2021</td>
+                                            <td>20%</td>
+                                            <td><span class="badge text-bg-success">Done</span></td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                                <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><img src="img/class-avatar.png" class="my-img-card me-2" alt="Avatar">Classe 81</td>
+                                            <td>21 febbraio 2021</td>
+                                            <td>20%</td>
+                                            <td><span class="badge text-bg-danger">Failed</span></td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                                <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><img src="img/class-avatar.png" class="my-img-card me-2" alt="Avatar">Classe 82</td>
+                                            <td>22 febbraio 2021</td>
+                                            <td>20%</td>
+                                            <td><span class="badge text-bg-success">Done</span></td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                                <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card - Todo -->
+                    <div class="col-12 col-lg-4 bg-info">
+                        <p>Todo</p>
+                    </div>
+                    <!-- Card - F.A.Q. -->
+                    <div class="col-12 col-lg-8 bg-warning">
+                        <p>FAQ</p>
+                    </div>
+                    <!-- Card - grafico -->
+                    <div class="col-12 col-lg-4 bg-danger">
+                        <p>Grafico</p>
+                    </div>
+                </div>
             </div>
         </main>
     </div>

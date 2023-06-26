@@ -44,3 +44,10 @@ aside {
     background-color: RGBA(22, 91, 186,var(--bs-bg-opacity,1))!important;
 }
 
+th {
+    font-weight: normal;
+}
+
+.my-img-card {
+    max-width: 25px;
+}
