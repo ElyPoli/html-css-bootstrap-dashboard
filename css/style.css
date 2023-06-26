@@ -40,6 +40,10 @@ aside {
 }
 
 /* Main */
+main {
+    background-color: #f8f9fa;
+}
+
 .text-bg-dark {
     background-color: RGBA(22, 91, 186,var(--bs-bg-opacity,1))!important;
 }
@@ -50,4 +54,14 @@ th {
 
 .my-img-card {
     max-width: 25px;
+}
+
+.my-border {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.my-border-card {
+    border-width: .3px !important;
+    border-color: rgba(0, 0, 0, 0.175);
+    border-radius: 0.375rem;
 }
